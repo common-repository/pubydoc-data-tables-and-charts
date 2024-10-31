@@ -1,0 +1,9 @@
+.wp-pointer.pubydoc-pointer {
+	z-index: 999999 !important;
+}
+.pubydoc-error {
+	color: #ff0000;
+}
+.error strong {
+	font-size: 15px;
+}

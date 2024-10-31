@@ -1,0 +1,226 @@
+.pyt-hidden {
+		display: none !important;
+}
+.pyt-table-wrap tr.pyt-invisible {
+	display: none !important;
+}
+.pyt-table-wrap th.[data-col=auto] {
+	width: 1px;
+}
+
+.pyt-table-wrap .pyt-table[data-responsive-mode="1"] td.child table {
+	table-layout: fixed;
+}
+.pyt-table-wrap .pyt-table td.child td {
+	position: relative;
+}
+
+.pyt-table-wrap {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+}
+.pyt-table-wrap.disable-responsive {
+	overflow: visible;
+}
+
+.pyt-table-wrap .pyt-table {
+	box-sizing: border-box;
+}
+
+table.pyt-table img.wp-post-image {
+	max-width:none;
+}
+table.pyt-table img {
+	max-width:100%;
+	height:auto;
+}
+
+.pyt-table-wrap table.pyt-table .no-header tr:first-child td {
+	border-top: 1px solid #111;
+}
+.pyt-table-wrap .dataTables_wrapper .dataTables_paginate .paginate_button {
+	position: relative;
+	width: auto !important;
+	height: auto !important;
+	background-color: transparent;
+	opacity: 1;
+	transition: none;
+}
+.pyt-table-wrap.pagination-large .dataTables_paginate .paginate_button {
+	padding: 0.5em 1em;
+}
+.pyt-table-wrap.pagination-medium .dataTables_paginate .paginate_button {
+	padding: 0.3em 0.7em;
+}
+.pyt-table-wrap.pagination-small .dataTables_paginate .paginate_button {
+	padding: 0.1em 0.5em;
+}
+
+table.pyt-table {
+	table-layout: auto!important;
+	max-width: none;
+}
+.dataTables_wrapper .dataTables_filter input {
+	width: auto;
+	margin-bottom: 1em;
+}
+
+/* Reset border styles for data tables, because border and border-left, border-right etc. styles are applied on table at the same time */
+table.dataTable tbody th, table.dataTable tbody td {
+	border: none;
+}
+/* Add .no-border class for disable table borders at all */
+table.dataTable.no-border.no-footer, table.dataTable.no-border th, table.dataTable.no-border td {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+table.dataTable.no-header[id]:not(.oneColumn) {
+	border-top: 1px solid #111;
+}
+table.dataTable table.childTable {
+	border-collapse: collapse;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: auto;
+}
+
+/*table.oneColumn,*/
+table.oneColumn thead,
+table.oneColumn tbody,
+table.oneColumn th,
+table.oneColumn td,
+table.oneColumn tr {
+	display: block;
+}
+table.dataTable caption {
+	padding: 0 !important;
+}
+
+table.oneColumn thead tr, table.oneColumn tfoot tr {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+table.oneColumn tr {
+	border: 1px solid #ccc;
+	height: auto!important;
+}
+
+table.oneColumn td {
+	border: none;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+table.oneColumnWithLabels tr:not(.haveMergedCell) td {
+	padding-left: 50%!important;
+	border-top: none !important;
+}
+
+table.oneColumnWithLabels tr:not(.haveMergedCell) td:before {
+	position: absolute;
+	text-align: left;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+table.oneColumnWithLabels tr:not(.haveMergedCell) td:after {
+	content: '';
+	display: inline-block;
+}
+
+.pyt-table.collapsed tr.child table td {
+	overflow-y: auto;
+}
+
+.pyt-table.fixedHeader-floating, .pyt-table.fixedFooter-floating {
+	display: none;
+}
+.pyt-table-wrap .pyt-table-signature {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	color: #a4aaac;
+}
+.pyt-table-wrap .pyt-table.compact .pyt-col-search-wrap th,
+.pyt-table-wrap .pyt-table.compact .pyt-col-search-wrap td {
+	padding: 4px;
+}
+.pyt-table-wrap .DTFC_ScrollWrapper{
+		height: auto!important;
+}
+
+/* For of applying unneeded scroll to fixed columns */
+.pyt-table-wrap .DTFC_LeftWrapper .pyt-table, .pyt-table-wrap .DTFC_RightWrapper .pyt-table {
+	border-right: none;
+}
+
+/* For search by hidden cells and for invisible cells */
+.pyt-table-wrap table.pyt-table tr .hiddenCell, .pyt-table-wrap table.pyt-table tr .invisibleCell {
+	display: none !important;
+}
+
+/* Fix for Horizontal scroll responsive mode if table has different width for one column in header and body */
+.pyt-table-wrap .fit-content {
+	border-bottom: none!important;
+}
+.pyt-table-wrap .fit-content table {
+	float: left;
+	border-bottom: 1px solid #111 !important;
+}
+
+/* Fix for using autowidth for tables with Fixed Header or Horizontal scroll responsive mode */
+.pyt-table-wrap .dataTables_scrollHeadInner, .pyt-table-wrap .dataTables_scrollFootInner {
+	margin: 0 !important;
+}
+.pyt-table-wrap table {
+	margin-left: 0 !important;
+}
+.pyt-table-wrap .dataTables_scroll {
+	padding-top: 0 !important;
+}
+table.dataTable input.search-column {
+	width: 100%;
+	padding: 3px;
+	box-sizing: border-box;
+	color: inherit;
+	font-weight: normal;
+}
+
+.dataTables_wrapper table td,
+.dataTables_wrapper table th {
+	word-break: unset!important;
+}
+.dataTables_processing {
+	z-index: 10;
+}
+.pyt-table-wrap table.pyt-table.stripe, .pyt-table-wrap table.pyt-table.hover td {
+		background-color: inherit;
+}
+/*Disable Edit Link that was placed wrong in plugin before*/
+.pyt-table-wrap > a {
+	display: none;
+}
+.pyt-table-wrap td.pyt-merged {
+	display: none;
+}
+.pyt-table-wrap .dataTables_filter label {
+	margin-right: 0;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th.dtr-control:before {
+	font-size: 14px;
+}
+.pyt-table-wrap .DTFC_LeftBodyWrapper .pyt-table {
+	overflow: hidden;
+}

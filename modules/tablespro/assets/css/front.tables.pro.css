@@ -1,0 +1,56 @@
+.pyt-file-delete {
+	display: none;
+	vertical-align: middle;
+}
+.pyt-field-button {
+	font-size: inherit !important;
+	line-height: normal !important;
+	height: auto !important;
+	min-height: auto !important;
+	padding: 10px !important;
+}
+.pyt-editable-field {
+	display: none;
+	position: absolute;
+	box-sizing: border-box;
+	border: 2px solid #ddd;
+	resize: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	text-indent: 10px;
+	background-color: #fff;
+}
+/* Mark for last edited cell */
+.pyt-just-edited {
+	position: relative;
+}
+.pyt-just-edited:after {
+	position: absolute;
+	padding-left: 3px;
+	content: '✓';
+}
+tr.pyt-collapsible-main > td:first-child {
+	padding-left: 30px;
+	position: relative;
+	cursor: pointer;
+}
+tr.pyt-collapsible-main > td:first-child:after {
+	position: absolute;
+	top: 50%;
+	left: 7px;
+	content: "\f055";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	transform: translateY(-50%);
+}
+tr.pyt-collapsible-main.pyt-collapsible-open td:first-child:after {
+	content: "\f056";
+}
+tr.pyt-collapsed {
+	display: none;
+}

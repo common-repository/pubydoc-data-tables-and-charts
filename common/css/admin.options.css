@@ -1,0 +1,47 @@
+.pubydoc-table-list table th {
+	text-align: left !important;
+	border-bottom: 1px solid #dcdcdc !important;
+	color: #002176;
+}
+.pubydoc-table-list table td {
+	padding-left: 18px !important;
+	text-align: left !important;
+}
+.pubydoc-table-list table td.dt-center {
+	text-align: center !important;
+}
+.pubydoc-table-list table {
+	border-bottom: 1px solid #dcdcdc !important;
+}
+.pubydoc-table-list .dataTables_processing {
+	top: 100px;
+}
+.pubydoc-table-list .dataTables_length {
+	line-height: 30px;
+}
+.pubydoc-plugin .dt-button:hover, 
+.pubydoc-plugin button.dt-button:active,
+.pubydoc-plugin button.dt-button:focus {
+	background: #5C1280 !important;
+	color: #ffffff;
+	-webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 1px solid #b0bec5;
+	text-shadow: none;
+}
+
+i.pyt-license {
+	background: center no-repeat url(images/license.png);
+}
+i.pyt-settings {
+	background: center no-repeat url(images/settings.png);
+}
+i.pyt-add {
+	background: center no-repeat url(images/add.png);
+}
+i.pyt-visibility {
+	background: center no-repeat url(images/visibility.png);
+}
+i.pyt-diagram {
+	background: center no-repeat url(images/diagram.png);
+}

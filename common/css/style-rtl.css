@@ -1,0 +1,41 @@
+.pubydoc-wrap{
+	margin-right: -20px;
+	margin-left: 0;
+}
+.pubydoc-plugin .pubydoc-content .pubydoc-navigation {
+	left: 0;
+}
+.pubydoc-plugin .pubydoc-content .pubydoc-navigation.pubydoc-sticky-active {
+	left: 6px;
+}
+.pubydoc-tour-btns .pubydoc-tour-next-btn {
+	float: right;
+}
+.pubydoc-plugin .pytCopyTextCode {
+	direction: ltr;
+}
+.chosen-container-single.chosen-container-single-nosearch .chosen-search,
+.chosen-container .chosen-drop {
+	left: 9999px;
+}
+.pubydoc-plugin select {
+	background: #fff url(images/down.png) no-repeat left 5px top 55%;
+	padding-left: 24px !important;
+}
+.sub-block-values {
+	direction: ltr;
+}
+.sub-block-values input, .sub-block-values select, .sub-block-values .pubydoc-color-picker {
+	direction: rtl;
+}
+.pubydoc-plugin .wp-color-result {
+	border-left-style: none !important;
+	border-right: #d8dfe3 solid 1px !important;
+}
+.pubydoc-plugin .settings-value-label {
+	margin-left: 5px;
+}
+.pytRightLabel {
+	margin-right: 5px;
+	margin-left: 0;
+}

@@ -1,0 +1,84 @@
+.pyt-front-editable:before, .pyt-front-tooltip:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 1;
+	border-top: 0 solid transparent;
+	border-left: 0 solid transparent;
+	border-right: 8px solid transparent;
+}
+.pyt-front-editable:before {
+	border-bottom: 8px solid #029a0e;
+}
+.pyt-front-tooltip:before {
+	border-bottom: 8px solid #FFC107;
+}
+.pq-grid-cell.pyt-collaps-rows:first-child {
+	border-left: 2px solid red;
+}
+.pyt-file-delete {
+	cursor: pointer;
+}
+.pyt-relative {
+	position: relative;
+}
+.pyt-inline-group input {
+	display: inline-block;
+	margin-right: 10px;
+}
+.pyt-cond-form button.pyt-apply-cond{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.pyt-cond-form span {
+	margin-right: 10px; 
+}
+.pyt-rules-wrapper {
+	max-height: 140px;
+	overflow: auto;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.pyt-rules-wrapper li {
+	display: flex;
+	border: 1px solid #c4c4c4;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1px;
+	min-height: 30px; 
+	width: 100%;
+}
+.pyt-rules-wrapper div {
+	padding: 5px 10px;
+}
+.pyt-rules-wrapper .pyt-rule-cb {
+	display: none;
+}
+.pyt-rules-wrapper .pyt-rule-preview {
+	width: 25%;
+	text-align: center;
+	align-self: start;
+}
+.pyt-rules-wrapper .pyt-rule-cond {
+	width: 70%;
+	text-align: left;
+}
+.pyt-rules-wrapper li:hover, .pyt-rules-wrapper li.current {
+	border-color: #5c1280; 
+}
+.pyt-rules-wrapper .pyt-new-rule div {
+	text-align: center;
+	background-color: #e9e9e9;
+	width: 100%;
+}
+.pyt-rules-wrapper .pyt-rule-delete:hover {
+	color: #5c1280;
+}
+.pyt-rules-wrapper .pyt-tpl-rule {
+	display: none;
+}
